@@ -34,6 +34,15 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #000000;
+	display: flex;
+}
+.page_select{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1620px;
+	color: #000000;
+	margin-top: -12px;
 }
 .footer__item__right__button{
 	margin-left: 12px;

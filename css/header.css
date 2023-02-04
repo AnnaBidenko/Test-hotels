@@ -117,13 +117,23 @@
 	line-height: 20px!important;
 	color: #6B7280!important;
 }
-.myform_group_2 .myformcontrol{
+.myformcontrol{
 	font-size: 14px!important;
 	line-height: 20px!important;
 	color: #171C26!important;
 }
-.myform_group_2 select .myformcontrol:hover{
+.myformcontrol:hover{
 	color: #1E40AF!important;
+	background: transparent!important;
+}
+.myformcontrol:visited{
+	color: #1E40AF!important;
+	box-shadow: none!important;
+	background: transparent!important;
+}
+.myformcontrol:focus{
+	color: #1E40AF!important;
+	box-shadow: none!important;
 	background: transparent!important;
 }
 .myform_group_3 label{
@@ -139,15 +149,6 @@
 	font-size: 13px!important;
 	line-height: 16px!important;
 	color: #6B7280!important;
-}
-.myform_group_3 .myformcontrol{
-	font-size: 14px!important;
-	line-height: 20px!important;
-	color: #171C26!important;
-}
-.myform_group_3 select .myformcontrol:hover{
-	color: #1E40AF!important;
-	background: transparent!important;
 }
 .myform_group_4{
 	padding-bottom: 1rem;
