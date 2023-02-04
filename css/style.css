@@ -1,0 +1,263 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*-----------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+body{}
+.wrapper{
+	display: inline-flex;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.about__title{
+	padding: 20px 0px;
+}
+.about__title__head{
+	display: flex;
+	justify-content: space-between;
+}
+.title__head__nav a{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #111827;
+}
+.title__head__nav .firstlink{
+	font-weight: 700;
+	position: relative;
+}
+.title__head__nav .firstlink img{
+	position: absolute;
+	bottom: 0;
+	left: 11px;
+}
+.title__head__nav span{
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: #1E40AF;
+	padding: 2px 10px;
+	background: #DBEAFE;
+	border-radius: 4px;
+	margin-left: 3px;
+}
+.title__head__button{
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding: 9px 17px 9px 15px;
+	width: 140px;
+	height: 38px;
+	background: #4F46E5;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	display: flex;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.title__head__button svg {
+	margin: 2px 11px 0px 0px;
+}
+
+.about__title__search{
+	display: flex;
+	margin: 10px 0px 10px 10px;
+}
+.search_form{
+	width: 400px;
+	height: 38px;
+	background: #FFFFFF;
+	border: 1px solid #D1D5DB;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	margin-right: 10px;
+	padding: 0px 0px 0px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.search_form__in{
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6B7280;
+	padding-top: 7px;
+	background: transparent!important;
+}
+.search_form__button{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #374151;
+	background: #F9FAFB;
+	border: 1px solid #D1D5DB;
+	border-radius: 0px 6px 6px 0px;
+	width: 98px;
+	text-align: center;
+	padding-top: 7px;
+}
+.search_button{
+	box-shadow: none!important;
+}
+.search_button .mybutton{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6B7280;
+	background: transparent;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05)!important;
+	border-radius: 0px 6px 6px 0px;
+}
+.search_button .mybutton:hover{
+	color: #1E40AF!important;
+	background: transparent;
+}
+.search_button .mybutton:focus{
+	color: #1E40AF!important;
+	box-shadow: none!important;
+	background: transparent!important;
+}
+.search_button_group{}
+.search_button_group button{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6B7280;
+	background: transparent;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 0px 6px 6px 0px;
+}
+.search_button_group button:hover{
+	color: #1E40AF!important;
+	background: transparent;
+}
+.search_button_group button:focus{
+	color: #1E40AF!important;
+	box-shadow: none!important;
+	background: transparent!important;
+}
+.mydropdown-menu{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #171C26;
+}
+.mydropdown-menu a:hover{
+	background: transparent!important;
+	color: #1E40AF!important;
+}
+.mytable .mytitle p{
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #687182;
+	display: flex;
+	padding-top: 12px;
+}
+.mytitle p:hover{
+	color: #171C26;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.filter{
+	display: flex;
+	flex-direction: column;
+}
+.filter svg{
+	margin: 2px 0px 0px 6px;
+}
+.filter:hover svg *{
+	fill: #464F60;
+	transition: 0.3s;
+	cursor: pointer;
+}
+tbody td{
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #171C26;
+}
+.table td, .table th {
+    vertical-align: middle!important;
+}
+.mytable .perks{
+	font-size: 12px;
+	line-height: 18px;
+	color: #14804A;
+	padding: 1px 8px 1px 20px;
+	background: #E1FCEF;
+	border-radius: 4px;
+	position: relative;
+	margin-top: 8px;
+}
+.mytable .perks:before{
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: #38A06C;
+	border-radius: 50%;
+	top: 7px;
+	left: 7px;
+	position: absolute;
+}
+tbody td span{
+	color: #6B7280;
+	margin-right: 6px;
+}
+.hname{
+	color: #5E5ADB!important;
+}
